@@ -1,0 +1,40 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header{
+    background-color: white;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 2px solid;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.logo img{
+    height: 70%;
+    width: auto;
+    padding: 10px;
+}
+
+.navbar{
+    border: 3px solid;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+main{
+    top: 90px;
+}
